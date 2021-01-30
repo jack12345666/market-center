@@ -1,0 +1,12 @@
+.textArea {
+    .item {
+        display: flex;
+        margin-bottom: 20px;
+        .label {
+            width: 80px;
+        }
+        .value {
+            width: 100%;
+        }
+    }
+}

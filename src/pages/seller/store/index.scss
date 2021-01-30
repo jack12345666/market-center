@@ -1,0 +1,44 @@
+.box {
+    .top {
+        display: flex;
+        flex-direction: row-reverse;
+        margin-bottom: 15px;
+    }
+    .img {
+      margin-bottom: 10px;
+      display: flex;
+      align-items: center;
+      .imgMainTitle {
+        color: #000;
+        margin-right: 10px;
+        &::before {
+            content: '*';
+            color: red;
+            font-size: 16px;
+            margin-right: 5px;
+        }
+      }
+      .imgTitle {
+       color: #000;
+       margin-right: 10px;
+     }
+     .imgTips {
+        font-size: 12px;
+        color: #999;
+      }
+    } 
+    .title {
+        margin: 20px 0;
+        color: #000;
+        &::before {
+          content: '*';
+          color: red;
+          font-size: 16px;
+          margin-right: 5px;
+      }
+    }
+    .mtitle {
+      margin: 20px 0;
+      color: #000;
+  }
+}

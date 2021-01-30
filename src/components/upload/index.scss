@@ -1,0 +1,15 @@
+:global(.ant-upload-list-picture-card-container) {
+    width: 180px;
+    height: 180px;
+    margin: 0 30px 10px 0;
+  
+}
+:global(.ant-upload-list-picture-card .ant-upload-list-item ){
+        width: 180px;
+        height: 180px;
+        margin: 0 30px 10px 0;
+}
+:global(.ant-upload.ant-upload-select-picture-card) {
+    min-width: 180px;
+    min-height: 180px;
+}
